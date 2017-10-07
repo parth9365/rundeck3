@@ -1,9 +1,0 @@
-description: test implicit project context
-for:
-  job:
-    - match:
-        group: QA.*
-      allow: ['*']
-      deny: [delete,blah]
-by:
-    group: ['multi1']
