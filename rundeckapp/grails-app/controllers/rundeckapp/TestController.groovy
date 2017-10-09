@@ -1,8 +1,13 @@
 package rundeckapp
 
+import grails.config.Config
+
 class TestController {
 
     def index() {
-        render 'hello grails 3'
+        Config config = grailsApplication.config
+
+        render  'config value: ' + grailsApplication.config.get("rundeck.security.authorization.preauthenticated.redirectLogout")
+
     }
 }

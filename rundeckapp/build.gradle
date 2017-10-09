@@ -70,3 +70,8 @@ assets {
     minifyJs = true
     minifyCss = true
 }
+
+bootRun {
+    // rundeck configuration
+    jvmArgs = ['-Drundeck.config.location=rundeck-config']
+}

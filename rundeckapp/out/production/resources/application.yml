@@ -81,6 +81,7 @@ grails:
             - "yyyy-MM-dd'T'HH:mm:ss.SSSXX"
             - "yyyy-MM-dd'T'HH:mm:ssXXX"
             - "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
+        trimStrings: false
 info:
     app:
         name: '@info.app.name@'
@@ -149,6 +150,15 @@ grails:
     plugins:
         twitterbootstrap:
             fixtaglib:  true
+    assets:
+        less:
+            compile: 'less4j'
+        plugin:
+            twitter-bootstrap:
+                excludes:
+                    - "**/*.less"
+                includes:
+                    - "bootstrap.less"
 
 endpoints:
     jmx:
@@ -237,13 +247,20 @@ rundeck:
         nodeCache:
             spec: 'refreshInterval=30s'
             enabled: true
+    executionMode: 'active'
 
-
-grails:
-    assets:
-        less:
-            compile: 'less4j'
-        plugin:
-            twitter-bootstrap:
-                excludes: ["**/*.less"]
-                includes: ["bootstrap.less"]
+plugin:
+    platformCore:
+        security:
+            disabled: true
+        navigation:
+            disabled: true
+        ui:
+            disabled: true
+        events:
+            disabled: true
+            gorm:
+                disabled: true
+        show:
+            startup:
+                info: false
