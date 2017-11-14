@@ -21,7 +21,7 @@
 * Created: Aug 26, 2010 4:04:59 PM
 * $Id$
 */
-package dtolabs.rundeck.core.cli;
+package com.dtolabs.rundeck.core.cli;
 
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Task;

@@ -18,7 +18,7 @@
 * ThreadBoundOutputStream.java
 * 
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;
@@ -32,7 +32,7 @@ import java.io.PrintStream;
  * capture output in a multi-threaded system, allowing using different sink OutputStreams for each Thread (and their
  * sub-threads). <br> Convenience methods {@link #bindSystemOut()} and {@link #bindSystemErr()} allow easy replacement
  * of the System.out and System.err printstreams, and access to the ThreadBoundOutputStream at any time after doing so.
- * <br> Setting the correct OutputStream should be done with {@link #installThreadStream(OutputStream)}, and
+ * <br> Setting the correct OutputStream should be done with {@link #installThreadStream(java.io.OutputStream)}, and
  * removed with {@link #removeThreadStream()}. <br> Example code which replaces System.out and sets a two different
  * FileOutputStreams as the sinks for System.out for multpile threads:
  * <pre>

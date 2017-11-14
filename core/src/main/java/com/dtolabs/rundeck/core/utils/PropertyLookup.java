@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import com.dtolabs.rundeck.core.common.PropertyRetriever;
 
@@ -21,6 +21,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
 

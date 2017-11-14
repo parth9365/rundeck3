@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

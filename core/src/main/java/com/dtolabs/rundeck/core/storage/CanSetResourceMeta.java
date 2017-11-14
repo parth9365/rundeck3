@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.storage;
+package com.dtolabs.rundeck.core.storage;
 
 import java.util.Date;
 import java.util.Map;
@@ -23,7 +23,7 @@ import java.util.Map;
  * Mutable interface for metadata
  */
 public interface CanSetResourceMeta {
-    public void setMeta(Map<String, String> meta);
+    public void setMeta(Map<String,String> meta);
     public void setMeta(String key, String value);
     public void setContentType(String value);
 

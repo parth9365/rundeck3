@@ -21,7 +21,7 @@
 * Created: 11/12/12 4:34 PM
 * 
 */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.common.ProviderService;
 import com.dtolabs.rundeck.core.execution.service.ExecutionServiceException;

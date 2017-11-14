@@ -21,7 +21,7 @@
 * Created: 12/3/12 3:20 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 
 /**

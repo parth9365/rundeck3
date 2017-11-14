@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.plugins.views;
+package com.dtolabs.rundeck.core.plugins.views;
 
 import com.dtolabs.rundeck.core.plugins.configuration.Property;
 

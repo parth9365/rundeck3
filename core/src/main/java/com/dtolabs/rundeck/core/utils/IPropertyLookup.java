@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import com.dtolabs.rundeck.core.common.PropertyRetriever;
 

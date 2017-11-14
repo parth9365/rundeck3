@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.utils.ZipUtil;
 
@@ -22,9 +22,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.jar.JarInputStream;
 import java.util.zip.ZipEntry;
 

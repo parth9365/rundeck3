@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization.providers;
-
-import com.dtolabs.rundeck.core.authorization.Explanation;
-import com.dtolabs.rundeck.core.authorization.Explanation.Code;
+package com.dtolabs.rundeck.core.authorization.providers;
 
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.dtolabs.rundeck.core.authorization.Explanation;
+import com.dtolabs.rundeck.core.authorization.Explanation.Code;
 
 /**
  * ContextDecision provides the decision id and the evaluation up to the decision point.

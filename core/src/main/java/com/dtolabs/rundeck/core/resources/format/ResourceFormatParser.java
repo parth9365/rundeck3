@@ -21,13 +21,13 @@
 * Created: 8/4/11 9:48 AM
 * 
 */
-package dtolabs.rundeck.core.resources.format;
+package com.dtolabs.rundeck.core.resources.format;
 
 import com.dtolabs.rundeck.core.common.INodeSet;
 
 import java.io.File;
 import java.io.InputStream;
-import java.util.Set;
+import java.util.*;
 
 /**
  * ResourceFormatParser is ...

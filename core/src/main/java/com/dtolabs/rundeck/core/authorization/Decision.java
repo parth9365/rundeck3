@@ -14,16 +14,17 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization;
+package com.dtolabs.rundeck.core.authorization;
 
-import javax.security.auth.Subject;
 import java.util.Map;
 import java.util.Set;
+
+import javax.security.auth.Subject;
 
 public interface Decision {
 
     /**
-     * Was the result from {@link Authorization#evaluate(Map, Subject, String, Set)}
+     * Was the result from {@link Authorization#evaluate(java.util.Map, javax.security.auth.Subject, String, java.util.Set)}
      * successful or not.
      * 
      * @return the authorization decision is authorized if this method returns true.

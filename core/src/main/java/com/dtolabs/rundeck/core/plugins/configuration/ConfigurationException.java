@@ -21,7 +21,7 @@
 * Created: 7/19/11 11:46 AM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 /**
  * ConfigurationException indicates an error with configuration of a provider

@@ -14,14 +14,13 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.data;
+package com.dtolabs.rundeck.core.data;
 
 import lombok.ToString;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 /**
  * Created by greg on 6/3/16.

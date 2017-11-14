@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.logs;
+package com.dtolabs.rundeck.plugins.logs;
 
 import java.util.Map;
 
@@ -63,5 +63,5 @@ public interface ContentConverterPlugin {
      *
      * @return output object
      */
-    Object convert(Object data, String dataType, Map<String, String> metadata);
+    Object convert(Object data, String dataType, Map<String,String> metadata);
 }

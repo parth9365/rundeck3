@@ -21,12 +21,11 @@
 * Created: 11/21/11 4:27 PM
 * 
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import java.io.IOException;
 import java.io.Reader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * A Line oriented String buffer which can also return the last incomplete line read

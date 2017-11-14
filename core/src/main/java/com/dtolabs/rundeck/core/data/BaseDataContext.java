@@ -14,8 +14,10 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.data;
+package com.dtolabs.rundeck.core.data;
 
+import com.dtolabs.rundeck.core.data.DataContext;
+import com.dtolabs.rundeck.core.data.MutableDataContext;
 import com.dtolabs.rundeck.core.dispatcher.DataContextUtils;
 
 import java.util.Collection;

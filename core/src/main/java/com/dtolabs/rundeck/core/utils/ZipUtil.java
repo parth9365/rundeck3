@@ -20,12 +20,12 @@
 * User: Greg Schueler <a href="mailto:greg@dtosolutions.com">greg@dtosolutions.com</a>
 * Created: Sep 30, 2010 3:36:38 PM
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
-import java.io.*;
-import java.util.Enumeration;
-import java.util.zip.ZipEntry;
+import java.util.*;
 import java.util.zip.ZipFile;
+import java.util.zip.ZipEntry;
+import java.io.*;
 
 /**
  * ZipUtil provides utility methods for extracting the contents of a zip file.

@@ -17,7 +17,7 @@
 /*
 * Author: Greg Schueler <a href="mailto:greg@simplifyops.com">greg@simplifyops.com</a>
 */
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 import com.dtolabs.rundeck.core.plugins.Plugin;
 import com.dtolabs.rundeck.core.plugins.configuration.Validator;
@@ -29,6 +29,7 @@ import com.dtolabs.rundeck.plugins.descriptions.RenderingOption;
 import com.dtolabs.rundeck.plugins.descriptions.RenderingOptions;
 
 import static com.dtolabs.rundeck.core.plugins.configuration.StringRenderingConstants.*;
+import static com.dtolabs.rundeck.core.plugins.configuration.StringRenderingConstants.DisplayType.STATIC_TEXT;
 
 /**
  * Created by greg on 5/11/16.

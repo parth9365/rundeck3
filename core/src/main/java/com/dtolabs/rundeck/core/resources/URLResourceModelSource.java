@@ -21,7 +21,7 @@
 * Created: 7/21/11 4:33 PM
 * 
 */
-package dtolabs.rundeck.core.resources;
+package com.dtolabs.rundeck.core.resources;
 
 import com.dtolabs.rundeck.core.common.*;
 import com.dtolabs.rundeck.core.common.impl.URLFileUpdater;
@@ -42,9 +42,7 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * URLResourceModelSource produces nodes from a URL

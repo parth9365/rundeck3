@@ -21,20 +21,23 @@
 * Created: Apr 23, 2010 2:35:19 PM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
+
+import static com.dtolabs.shared.resources.ResourceXMLConstants.*;
 
 import com.dtolabs.shared.resources.ResourceXMLConstants;
 import com.dtolabs.shared.resources.ResourceXMLParser;
 import com.dtolabs.shared.resources.ResourceXMLParserException;
 import com.dtolabs.shared.resources.ResourceXMLReceiver;
+import com.dtolabs.utils.Mapper;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.HashSet;
-
-import static com.dtolabs.shared.resources.ResourceXMLConstants.*;
+import java.util.HashMap;
 
 /**
  * NodesXmlParser invokes the ResourceXmlParser to collate the Node entries, and sends the parsed nodes to the {@link

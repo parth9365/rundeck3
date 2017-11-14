@@ -21,7 +21,7 @@
 * Created: 7/20/11 9:21 AM
 * 
 */
-package dtolabs.rundeck.core.resources;
+package com.dtolabs.rundeck.core.resources;
 
 import com.dtolabs.rundeck.core.plugins.configuration.ConfigurationException;
 

@@ -21,14 +21,7 @@
  * Created: 4/12/11 7:29 PM
  * 
  */
-package dtolabs.rundeck.core.plugins;
-
-import com.dtolabs.rundeck.core.execution.service.ProviderCreationException;
-import com.dtolabs.rundeck.core.execution.service.ProviderLoaderException;
-import com.dtolabs.rundeck.core.utils.FileUtils;
-import com.dtolabs.rundeck.core.utils.ZipUtil;
-import com.dtolabs.rundeck.core.utils.cache.FileCache;
-import org.apache.log4j.Logger;
+package com.dtolabs.rundeck.core.plugins;
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -43,6 +36,14 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.jar.Attributes;
 import java.util.jar.JarInputStream;
 import java.util.jar.Manifest;
+
+import org.apache.log4j.Logger;
+
+import com.dtolabs.rundeck.core.execution.service.ProviderCreationException;
+import com.dtolabs.rundeck.core.execution.service.ProviderLoaderException;
+import com.dtolabs.rundeck.core.utils.FileUtils;
+import com.dtolabs.rundeck.core.utils.ZipUtil;
+import com.dtolabs.rundeck.core.utils.cache.FileCache;
 
 /**
  * JarPluginProviderLoader can load jar plugin files as provider instances.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 import java.util.Map;
 

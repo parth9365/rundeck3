@@ -21,7 +21,7 @@
 * Created: 8/4/11 5:15 PM
 * 
 */
-package dtolabs.rundeck.core.resources.format;
+package com.dtolabs.rundeck.core.resources.format;
 
 import com.dtolabs.rundeck.core.common.INodeSet;
 import com.dtolabs.rundeck.core.common.NodesGeneratorException;

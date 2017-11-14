@@ -1,10 +1,11 @@
-package dtolabs.rundeck.core.rules;
+package com.dtolabs.rundeck.core.rules;
 
 
 
 import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.StreamSupport;
 
 /**
  * Create rules and a rule engine
@@ -203,7 +204,7 @@ public class Rules {
 
     }
 
-    public static Predicate<? super Rule> ruleApplies(final StateObj state) {
+    public static java.util.function.Predicate<? super Rule> ruleApplies(final StateObj state) {
         return input -> input.test(state);
     }
 

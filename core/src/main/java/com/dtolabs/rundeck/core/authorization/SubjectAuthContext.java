@@ -14,15 +14,13 @@
  limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization;
+package com.dtolabs.rundeck.core.authorization;
 
 import com.dtolabs.rundeck.core.authentication.Group;
 import com.dtolabs.rundeck.core.authentication.Username;
 
 import javax.security.auth.Subject;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Wraps a Subject and Authorization to provide AuthContext

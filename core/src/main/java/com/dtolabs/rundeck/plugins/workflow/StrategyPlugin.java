@@ -1,4 +1,4 @@
-package dtolabs.rundeck.plugins.workflow;
+package com.dtolabs.rundeck.plugins.workflow;
 
 /**
  * Plugin defining the strategy for executing workflow steps

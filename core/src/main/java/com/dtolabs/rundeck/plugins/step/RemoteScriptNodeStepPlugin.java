@@ -21,7 +21,7 @@
 * Created: 11/19/12 6:04 PM
 * 
 */
-package dtolabs.rundeck.plugins.step;
+package com.dtolabs.rundeck.plugins.step;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.execution.workflow.steps.node.NodeStepException;

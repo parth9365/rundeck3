@@ -21,7 +21,7 @@
 * Created: 12/3/12 4:17 PM
 * 
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * PropertyRetriever is ...

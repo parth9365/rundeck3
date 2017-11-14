@@ -21,7 +21,7 @@
 * Created: 11/12/12 4:25 PM
 * 
 */
-package dtolabs.rundeck.plugins.step;
+package com.dtolabs.rundeck.plugins.step;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.execution.workflow.steps.node.NodeStepException;
@@ -45,7 +45,7 @@ public interface NodeStepPlugin {
      * @throws NodeStepException if an error occurs
      */
     public void executeNodeStep(final PluginStepContext context,
-                                final Map<String, Object> configuration,
-                                final INodeEntry entry)
+                                   final Map<String, Object> configuration,
+                                   final INodeEntry entry)
         throws NodeStepException;
 }

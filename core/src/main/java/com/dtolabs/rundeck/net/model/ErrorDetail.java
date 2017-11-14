@@ -1,4 +1,4 @@
-package dtolabs.rundeck.net.model;
+package com.dtolabs.rundeck.net.model;
 
 public interface ErrorDetail {
     String getErrorCode();

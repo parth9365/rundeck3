@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.storage;
+package com.dtolabs.rundeck.plugins.storage;
 
 import com.dtolabs.rundeck.core.storage.StorageTree;
 

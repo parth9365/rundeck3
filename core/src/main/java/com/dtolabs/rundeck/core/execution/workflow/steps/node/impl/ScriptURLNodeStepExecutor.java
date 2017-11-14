@@ -21,7 +21,7 @@
 * Created: 5/2/12 2:37 PM
 * 
 */
-package dtolabs.rundeck.core.execution.workflow.steps.node.impl;
+package com.dtolabs.rundeck.core.execution.workflow.steps.node.impl;
 
 import com.dtolabs.rundeck.core.Constants;
 import com.dtolabs.rundeck.core.common.Framework;

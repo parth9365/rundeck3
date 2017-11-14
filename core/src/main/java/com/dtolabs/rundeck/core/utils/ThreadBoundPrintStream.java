@@ -21,7 +21,7 @@
 * Created: Sep 9, 2010 11:49:54 AM
 * $Id$
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import java.io.PrintStream;
 

@@ -21,7 +21,7 @@
 * Created: 8/2/11 12:01 PM
 * 
 */
-package dtolabs.rundeck.core.resources;
+package com.dtolabs.rundeck.core.resources;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.common.INodeSet;

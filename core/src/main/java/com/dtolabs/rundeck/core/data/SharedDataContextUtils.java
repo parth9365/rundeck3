@@ -21,18 +21,16 @@
 * Created: Aug 16, 2010 6:27:40 PM
 * $Id$
 */
-package dtolabs.rundeck.core.data;
+package com.dtolabs.rundeck.core.data;
 
 import com.dtolabs.rundeck.core.dispatcher.*;
 import com.dtolabs.rundeck.core.execution.script.ScriptfileUtils;
 import com.dtolabs.rundeck.core.execution.workflow.*;
+import com.dtolabs.rundeck.core.execution.workflow.DataOutput;
 import com.dtolabs.rundeck.core.utils.Converter;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.function.BiFunction;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -219,7 +217,7 @@ public class SharedDataContextUtils {
      * @param style       line ending style
      * @param destination destination file, or null to create a temp file
      *
-     * @throws IOException on io error
+     * @throws java.io.IOException on io error
      */
     public static void replaceTokensInScript(
             final String script,
@@ -252,7 +250,7 @@ public class SharedDataContextUtils {
      * @param style       script file line ending style to use
      * @param destination destination file
      *
-     * @throws IOException on io error
+     * @throws java.io.IOException on io error
      */
     public static void replaceTokensInStream(
             final InputStream stream,
@@ -283,7 +281,7 @@ public class SharedDataContextUtils {
      * @param style       script file line ending style to use
      * @param destination destination file
      *
-     * @throws IOException on io error
+     * @throws java.io.IOException on io error
      */
     public static void replaceTokensInReader(
             final Reader reader,

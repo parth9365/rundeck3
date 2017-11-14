@@ -14,14 +14,11 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.util;
+package com.dtolabs.rundeck.plugins.util;
+
+import java.util.*;
 
 import com.dtolabs.rundeck.core.plugins.configuration.*;
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 
 /**

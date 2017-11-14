@@ -14,9 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.logging;
+package com.dtolabs.rundeck.plugins.logging;
 
+import com.dtolabs.rundeck.core.execution.ExecutionContext;
 import com.dtolabs.rundeck.core.logging.*;
+
+import java.util.Map;
 
 /**
  * Provides a filter mechanism for log events, with access to the execution context

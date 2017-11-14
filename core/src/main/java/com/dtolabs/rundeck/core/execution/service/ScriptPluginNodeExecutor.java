@@ -21,7 +21,7 @@
 * Created: 4/5/11 10:00 AM
 * 
 */
-package dtolabs.rundeck.core.execution.service;
+package com.dtolabs.rundeck.core.execution.service;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.common.INodeEntry;

@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-package dtolabs.rundeck.core.logging;
+package com.dtolabs.rundeck.core.logging;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,7 +23,7 @@ import java.util.Date;
 
 /**
  * Handles storage and retrieval of typed files for an execution, the filetype is specified in the {@link #store(String,
- * InputStream, long, Date)} and {@link #retrieve(String, OutputStream)} methods, and more
+ * java.io.InputStream, long, java.util.Date)} and {@link #retrieve(String, java.io.OutputStream)} methods, and more
  * than one filetype may be stored or retrieved for the same execution.
  */
 public interface ExecutionFileStorage {
@@ -37,7 +37,7 @@ public interface ExecutionFileStorage {
      *
      * @return true if successful
      *
-     * @throws IOException if an IO error occurs
+     * @throws java.io.IOException if an IO error occurs
      * @throws com.dtolabs.rundeck.core.logging.ExecutionFileStorageException if other errors occur
      */
     boolean store(String filetype, InputStream stream, long length, Date lastModified) throws IOException,

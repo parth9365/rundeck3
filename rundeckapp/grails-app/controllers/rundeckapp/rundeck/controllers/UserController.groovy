@@ -15,9 +15,9 @@
  */
 
 package rundeckapp.rundeck.controllers
-/*
 
-import com.dtolabs.rundeck.core.authorization.AuthContext
+
+/*import com.dtolabs.rundeck.core.authorization.AuthContext
 import com.dtolabs.rundeck.core.authorization.UserAndRolesAuthContext
 import com.dtolabs.rundeck.server.authorization.AuthConstants
 import grails.converters.JSON

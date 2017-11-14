@@ -1,13 +1,10 @@
-package dtolabs.rundeck.core.rules;
+package com.dtolabs.rundeck.core.rules;
 
+import com.google.common.util.concurrent.*;
 import org.apache.log4j.Logger;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.*;
+import java.util.concurrent.*;
 
 /**
  * A WorkflowSystem which processes the operations by use of a rule system and a mutable state.

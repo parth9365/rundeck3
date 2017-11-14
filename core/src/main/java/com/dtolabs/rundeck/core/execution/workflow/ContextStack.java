@@ -21,12 +21,11 @@
 * Created: 11/27/12 10:21 AM
 * 
 */
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 import org.apache.commons.lang.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 
 /**

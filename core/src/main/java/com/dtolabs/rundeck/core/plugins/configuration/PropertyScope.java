@@ -21,7 +21,7 @@
 * Created: 12/3/12 3:41 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 /**
  * Available scopes for properties, indicating where the runtime values can be resolved from.

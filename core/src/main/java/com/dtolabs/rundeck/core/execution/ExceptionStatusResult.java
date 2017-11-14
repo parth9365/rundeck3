@@ -21,7 +21,7 @@
 * Created: 11/2/12 12:19 PM
 * 
 */
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 /**
  * ExceptionStatusResult is ...

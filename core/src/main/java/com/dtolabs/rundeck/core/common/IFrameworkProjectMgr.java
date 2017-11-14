@@ -14,7 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
+
+import com.dtolabs.rundeck.core.utils.IPropertyLookup;
+
+import java.util.Collection;
+import java.util.Properties;
 
 /**
  * A set of interfaces for managing a set of Projects

@@ -21,7 +21,7 @@
 * Created: 11/2/12 12:10 PM
 * 
 */
-package dtolabs.rundeck.core.execution.dispatch;
+package com.dtolabs.rundeck.core.execution.dispatch;
 
 /**
  * HasDispatcherResult can produce a DispatcherResult

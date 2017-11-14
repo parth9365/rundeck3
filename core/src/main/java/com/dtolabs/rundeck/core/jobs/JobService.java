@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.jobs;
+package com.dtolabs.rundeck.core.jobs;
 
 import com.dtolabs.rundeck.core.execution.ExecutionNotFound;
 import com.dtolabs.rundeck.core.execution.ExecutionReference;
 
 import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 

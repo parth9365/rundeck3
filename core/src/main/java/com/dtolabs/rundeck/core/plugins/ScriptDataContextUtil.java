@@ -21,7 +21,7 @@
 * Created: 5/16/12 9:30 AM
 * 
 */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.Constants;
 import com.dtolabs.rundeck.core.common.Framework;

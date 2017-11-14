@@ -21,7 +21,7 @@
 * Created: 3/22/11 7:05 PM
 * 
 */
-package dtolabs.rundeck.core.execution.dispatch;
+package com.dtolabs.rundeck.core.execution.dispatch;
 
 import com.dtolabs.rundeck.core.execution.StatusResult;
 import com.dtolabs.rundeck.core.execution.workflow.steps.node.NodeStepResult;

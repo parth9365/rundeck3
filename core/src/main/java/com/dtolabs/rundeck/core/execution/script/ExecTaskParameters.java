@@ -21,7 +21,7 @@
 * Created: Aug 19, 2010 5:36:46 PM
 * $Id$
 */
-package dtolabs.rundeck.core.execution.script;
+package com.dtolabs.rundeck.core.execution.script;
 
 /**
  * ExecTaskParameters is ...

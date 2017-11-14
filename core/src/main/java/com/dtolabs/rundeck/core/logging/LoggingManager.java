@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.logging;
+package com.dtolabs.rundeck.core.logging;
 
 import com.dtolabs.rundeck.core.execution.ExecutionContext;
 import com.dtolabs.rundeck.core.execution.StepExecutionItem;
+import com.dtolabs.rundeck.plugins.logging.LogFilterPlugin;
 
 /**
  * @author greg

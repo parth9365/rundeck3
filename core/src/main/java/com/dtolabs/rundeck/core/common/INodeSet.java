@@ -21,7 +21,7 @@
 * Created: 7/19/11 10:46 AM
 * 
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 import java.util.Collection;
 

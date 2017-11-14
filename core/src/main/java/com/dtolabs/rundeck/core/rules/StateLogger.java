@@ -1,4 +1,4 @@
-package dtolabs.rundeck.core.rules;
+package com.dtolabs.rundeck.core.rules;
 
 import com.dtolabs.rundeck.core.Constants;
 import com.dtolabs.rundeck.plugins.PluginLogger;

@@ -21,7 +21,7 @@
 * Created: 8/4/11 9:48 AM
 * 
 */
-package dtolabs.rundeck.core.resources.format;
+package com.dtolabs.rundeck.core.resources.format;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.execution.service.ExecutionServiceException;
@@ -37,9 +37,7 @@ import com.dtolabs.rundeck.core.resources.format.json.ResourceJsonFormatParser;
 import com.dtolabs.rundeck.plugins.ServiceNameConstants;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * ResourceFormatParserService is ...

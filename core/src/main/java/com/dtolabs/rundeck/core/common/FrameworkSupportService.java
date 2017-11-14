@@ -21,7 +21,7 @@
 * Created: 3/21/11 5:47 PM
 * 
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * FrameworkSupportService common interface for services that can be registered with and

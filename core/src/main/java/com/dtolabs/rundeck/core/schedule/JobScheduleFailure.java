@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.schedule;
+package com.dtolabs.rundeck.core.schedule;
 
 /**
  * @author greg

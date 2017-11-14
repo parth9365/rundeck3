@@ -17,7 +17,7 @@
 /**
  * 
  */
-package dtolabs.rundeck.core.authentication;
+package com.dtolabs.rundeck.core.authentication;
 
 import java.security.Principal;
 

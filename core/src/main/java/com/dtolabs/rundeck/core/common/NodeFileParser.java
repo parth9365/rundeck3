@@ -21,7 +21,7 @@
 * Created: Apr 23, 2010 3:01:23 PM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * NodeFileParser has a single parse method, and throws the NodeFileParserException on error.

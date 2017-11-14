@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 import java.util.Date;
 import java.util.Map;

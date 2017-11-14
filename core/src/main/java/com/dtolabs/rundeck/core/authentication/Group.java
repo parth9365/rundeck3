@@ -17,7 +17,7 @@
 /**
  * 
  */
-package dtolabs.rundeck.core.authentication;
+package com.dtolabs.rundeck.core.authentication;
 
 import java.io.Serializable;
 import java.security.Principal;
@@ -37,7 +37,7 @@ public class Group implements Principal,Serializable {
     private final String group;
     
     /**
-     * @see Principal#getName()
+     * @see java.security.Principal#getName()
      */
     public String getName() {
         return group;

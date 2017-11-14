@@ -21,7 +21,7 @@
 * Created: Jan 17, 2011 4:48:23 PM
 *
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 import java.io.IOException;
 import java.util.Collection;

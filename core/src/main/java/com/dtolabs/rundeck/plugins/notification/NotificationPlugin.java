@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.notification;
+package com.dtolabs.rundeck.plugins.notification;
 
 import java.util.Map;
 
@@ -32,5 +32,5 @@ public interface NotificationPlugin {
      * @param config notification configuration
      *               @return true if successul
      */
-    public boolean postNotification(String trigger, Map executionData, Map config);
+    public boolean postNotification(String trigger,Map executionData,Map config);
 }

@@ -21,7 +21,7 @@
 * Created: 8/4/11 10:21 AM
 * 
 */
-package dtolabs.rundeck.core.resources.format;
+package com.dtolabs.rundeck.core.resources.format;
 
 /**
  * UnsupportedFormatException is ...

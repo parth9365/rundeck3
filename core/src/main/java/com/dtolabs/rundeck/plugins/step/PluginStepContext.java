@@ -21,7 +21,7 @@
 * Created: 11/26/12 3:04 PM
 * 
 */
-package dtolabs.rundeck.plugins.step;
+package com.dtolabs.rundeck.plugins.step;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.common.INodeSet;

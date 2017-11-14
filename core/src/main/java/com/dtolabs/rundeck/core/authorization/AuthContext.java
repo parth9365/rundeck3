@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization;
+package com.dtolabs.rundeck.core.authorization;
 
 import java.util.Map;
 import java.util.Set;

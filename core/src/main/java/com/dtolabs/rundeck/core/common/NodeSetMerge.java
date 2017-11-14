@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * $INTERFACE is ... User: greg Date: 1/29/14 Time: 12:31 PM

@@ -21,7 +21,7 @@
  * Created: Sep 22, 2006 12:31:05 PM
  * $Id: PropertiesUtil.java 7769 2008-02-07 00:50:23Z gschueler $
  */
-package dtolabs.utils;
+package com.dtolabs.utils;
 
 
 import java.io.ByteArrayInputStream;
@@ -29,10 +29,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Properties;
+import java.util.Iterator;
+import java.util.HashSet;
+import java.util.Collection;
 
 
 /**
@@ -49,7 +49,7 @@ public class PropertiesUtil {
      *
      * @return String format from the Properties
      *
-     * @throws IOException if an error occurs
+     * @throws java.io.IOException if an error occurs
      */
     public static String stringFromProperties(Properties props) throws IOException {
         ByteArrayOutputStream baos = new ByteArrayOutputStream(2048);

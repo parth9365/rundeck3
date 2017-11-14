@@ -21,7 +21,7 @@
 * Created: Feb 4, 2008 4:06:55 PM
 * $Id$
 */
-package dtolabs.utils;
+package com.dtolabs.utils;
 
 import org.apache.tools.ant.types.FilterSet;
 
@@ -42,7 +42,7 @@ public class Streams {
      * @param out outpustream
      *
      * @return bytes copied
-     * @throws IOException if thrown by underlying io operations
+     * @throws java.io.IOException if thrown by underlying io operations
      */
     public static long copyStream(final InputStream in, final OutputStream out) throws IOException {
         return copyStreamCount(in, out);
@@ -55,7 +55,7 @@ public class Streams {
      * @param out outpustream
      *            @return number of bytes copied
      *
-     * @throws IOException if thrown by underlying io operations
+     * @throws java.io.IOException if thrown by underlying io operations
      */
     public static int copyStreamCount(final InputStream in, final OutputStream out) throws IOException {
         final byte[] buffer = new byte[10240];
@@ -78,7 +78,7 @@ public class Streams {
      * @param out outpustream
      *            @return number of bytes copied
      *
-     * @throws IOException if thrown by underlying io operations
+     * @throws java.io.IOException if thrown by underlying io operations
      */
     public static int copyWriterCount(final Reader in, final Writer out) throws IOException {
         final char[] buffer = new char[10240];
@@ -143,7 +143,7 @@ public class Streams {
      * @param out outputstream
      * @param set FilterSet to use
      *
-     * @throws IOException if thrown by underlying io operations
+     * @throws java.io.IOException if thrown by underlying io operations
      */
     public static void copyStreamWithFilterSet(final InputStream in, final OutputStream out, final FilterSet set)
         throws IOException {

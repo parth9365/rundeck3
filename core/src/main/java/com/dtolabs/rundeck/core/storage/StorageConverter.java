@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.storage;
+package com.dtolabs.rundeck.core.storage;
 
 
 import org.rundeck.storage.conf.ContentConverter;

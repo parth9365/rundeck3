@@ -21,7 +21,7 @@
 * Created: 4/12/11 3:52 PM
 * 
 */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.utils.cache.FileCache;
 

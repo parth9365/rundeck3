@@ -21,7 +21,7 @@
 * Created: Mar 31, 2008 6:18:17 PM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * INodeBase identifies a node by its name.

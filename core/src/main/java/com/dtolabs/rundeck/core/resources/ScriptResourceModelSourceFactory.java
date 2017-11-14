@@ -21,13 +21,14 @@
 * Created: 8/2/11 3:57 PM
 * 
 */
-package dtolabs.rundeck.core.resources;
+package com.dtolabs.rundeck.core.resources;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.plugins.Plugin;
 import com.dtolabs.rundeck.core.plugins.configuration.*;
 
-import java.util.Properties;
+import java.io.File;
+import java.util.*;
 
 /**
  * ScriptResourceModelSourceFactory implements the 'script' plugin for ResourceModelSource

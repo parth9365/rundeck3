@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.common.impl;
+package com.dtolabs.rundeck.core.common.impl;
 
 import java.io.File;
 import java.net.URL;

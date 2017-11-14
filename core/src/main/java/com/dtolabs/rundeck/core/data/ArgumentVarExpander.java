@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.data;
+package com.dtolabs.rundeck.core.data;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

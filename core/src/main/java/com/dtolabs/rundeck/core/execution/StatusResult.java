@@ -21,7 +21,7 @@
 * Created: 3/22/11 6:37 PM
 * 
 */
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 /**
  * StatusResult is a basic result interface indicating success or failure.

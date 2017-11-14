@@ -1,4 +1,4 @@
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 /**
  * Created by greg on 6/2/16.

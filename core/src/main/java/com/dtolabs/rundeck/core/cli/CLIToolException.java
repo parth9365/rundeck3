@@ -21,7 +21,7 @@
 * Created: Mar 24, 2010 6:21:42 PM
 * $Id$
 */
-package dtolabs.rundeck.core.cli;
+package com.dtolabs.rundeck.core.cli;
 
 /**
  * CLIToolException supertype of exceptions thrown by CLI tools

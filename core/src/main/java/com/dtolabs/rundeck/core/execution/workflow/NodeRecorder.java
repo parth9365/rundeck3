@@ -21,15 +21,12 @@
 * Created: Dec 15, 2010 3:13:18 PM
 *
 */
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 import com.dtolabs.rundeck.core.execution.FailedNodesListener;
 import com.dtolabs.rundeck.core.execution.workflow.steps.node.NodeStepResult;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+import java.util.*;
 
 /**
  * NodeRecorder stores success/failure node list

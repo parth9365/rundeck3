@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.execution.ExecArgList;
@@ -42,7 +42,7 @@ public interface ScriptExecHelper {
      *
      * @return the exit code of the command
      *
-     * @throws IOException  if any IO exception occurs
+     * @throws java.io.IOException  if any IO exception occurs
      * @throws InterruptedException if interrupted while waiting for the command to finish
      */
     public int runLocalCommand(

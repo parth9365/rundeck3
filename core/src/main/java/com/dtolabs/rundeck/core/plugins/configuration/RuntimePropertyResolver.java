@@ -21,7 +21,7 @@
 * Created: 12/3/12 4:15 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 import com.dtolabs.rundeck.core.common.PropertyRetriever;
 import org.apache.log4j.Logger;

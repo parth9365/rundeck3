@@ -21,7 +21,7 @@
 * Created: Jun 17, 2010 3:24:24 PM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * NodeReceiver is ...

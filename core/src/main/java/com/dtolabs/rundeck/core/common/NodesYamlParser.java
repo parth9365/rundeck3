@@ -21,16 +21,16 @@
 * Created: Jan 17, 2011 5:29:00 PM
 *
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 
+import com.dtolabs.rundeck.core.resources.format.ResourceFormatParser;
 import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.error.YAMLException;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 
+import java.util.*;
 import java.io.*;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * NodesYamlParser imports Node data from a YAML formatted input file or datastream.

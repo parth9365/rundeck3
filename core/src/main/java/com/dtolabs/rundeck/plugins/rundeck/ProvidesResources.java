@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.rundeck;
+package com.dtolabs.rundeck.plugins.rundeck;
 
 import java.io.OutputStream;
 

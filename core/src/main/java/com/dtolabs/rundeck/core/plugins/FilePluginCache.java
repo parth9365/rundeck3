@@ -21,7 +21,7 @@
 * Created: 4/12/11 3:45 PM
 * 
 */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.execution.service.ProviderLoaderException;
 import com.dtolabs.rundeck.core.utils.PairImpl;
@@ -29,9 +29,7 @@ import com.dtolabs.rundeck.core.utils.cache.FileCache;
 import org.apache.log4j.Logger;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * FilePluginCache uses a filecache and a set of {@link PluginScanner}s to cache and create {@link ProviderLoader}

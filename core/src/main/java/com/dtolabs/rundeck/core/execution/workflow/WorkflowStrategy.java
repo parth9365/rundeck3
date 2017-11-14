@@ -21,7 +21,7 @@
 * Created: Aug 26, 2010 2:13:06 PM
 * $Id$
 */
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 import com.dtolabs.rundeck.core.plugins.configuration.Validator;
 import com.dtolabs.rundeck.core.rules.RuleEngine;

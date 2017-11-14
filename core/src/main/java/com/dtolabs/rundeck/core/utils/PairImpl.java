@@ -21,7 +21,7 @@
 * Created: 4/12/11 3:27 PM
 * 
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 /**
  * Pair implementation that disallows nulls, and provides setters.

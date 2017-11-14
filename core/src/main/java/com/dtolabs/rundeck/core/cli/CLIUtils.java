@@ -21,7 +21,7 @@
 * Created: Mar 31, 2010 8:43:34 AM
 * $Id$
 */
-package dtolabs.rundeck.core.cli;
+package com.dtolabs.rundeck.core.cli;
 
 import com.dtolabs.rundeck.core.utils.Converter;
 import org.apache.commons.lang.CharUtils;

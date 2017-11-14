@@ -21,9 +21,10 @@
 * Created: 12/12/12 10:26 AM
 * 
 */
-package dtolabs.rundeck.core.execution.workflow.steps.node;
+package com.dtolabs.rundeck.core.execution.workflow.steps.node;
 
 import com.dtolabs.rundeck.plugins.step.FileExtensionGeneratedScript;
+import com.dtolabs.rundeck.plugins.step.GeneratedScript;
 
 import java.io.File;
 import java.util.Map;

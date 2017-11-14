@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.cli;
+package com.dtolabs.rundeck.core.cli;
 
 import org.apache.commons.cli.CommandLine;
 

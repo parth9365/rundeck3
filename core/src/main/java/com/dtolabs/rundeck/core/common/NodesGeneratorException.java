@@ -21,7 +21,7 @@
 * Created: Jan 19, 2011 12:38:48 PM
 *
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * NodesGeneratorException indicates an error when generating output from nodes data.

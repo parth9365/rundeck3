@@ -21,7 +21,7 @@
 * Created: May 26, 2010 10:54:42 AM
 * $Id$
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;

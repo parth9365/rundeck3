@@ -21,7 +21,7 @@
 * Created: 7/27/11 5:22 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 /**
  * ValidationException indicates an error validting a property value

@@ -14,7 +14,14 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.service;
+package com.dtolabs.rundeck.core.execution.service;
+
+import com.dtolabs.rundeck.core.common.INodeEntry;
+import com.dtolabs.rundeck.core.execution.ExecutionContext;
+
+import java.io.File;
+import java.io.InputStream;
+import java.util.List;
 
 /**
  * Copy files to a specific destination on a remote node.

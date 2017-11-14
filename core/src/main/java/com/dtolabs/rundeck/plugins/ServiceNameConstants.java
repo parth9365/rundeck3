@@ -21,7 +21,7 @@
 * Created: 11/28/12 3:16 PM
 * 
 */
-package dtolabs.rundeck.plugins;
+package com.dtolabs.rundeck.plugins;
 
 /**
  * ServiceNameConstants contains the names of defined services

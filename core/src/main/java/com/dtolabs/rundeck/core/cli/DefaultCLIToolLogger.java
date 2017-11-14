@@ -21,7 +21,7 @@
 * Created: Feb 24, 2010 3:33:29 PM
 * $Id$
 */
-package dtolabs.rundeck.core.cli;
+package com.dtolabs.rundeck.core.cli;
 
 /**
  * DefaultCLIToolLogger logs to System.out and System.err

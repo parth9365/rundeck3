@@ -21,20 +21,18 @@
 * Created: Apr 23, 2010 3:35:55 PM
 * $Id$
 */
-package dtolabs.shared.resources;
+package com.dtolabs.shared.resources;
 
-import org.apache.log4j.Logger;
+import static com.dtolabs.shared.resources.ResourceXMLConstants.*;
+
+import org.dom4j.*;
 import org.dom4j.io.SAXReader;
 import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
+import org.apache.log4j.Logger;
 
 import java.io.*;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Properties;
-
-import static com.dtolabs.shared.resources.ResourceXMLConstants.*;
+import java.util.*;
 
 /**
  * ResourceXMLParser parses a resources.xml formatted file, and provides several interfaces for using the result data.
@@ -94,7 +92,7 @@ public class ResourceXMLParser {
      * Parse the document, applying the configured Receiver to the parsed entities
      *
      * @throws ResourceXMLParserException parse error
-     * @throws IOException io error
+     * @throws java.io.IOException io error
      */
     public void parse() throws ResourceXMLParserException, IOException {
         final EntityResolver resolver = createEntityResolver();

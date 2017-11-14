@@ -21,7 +21,7 @@
 * Created: Apr 23, 2010 3:58:59 PM
 * $Id$
 */
-package dtolabs.shared.resources;
+package com.dtolabs.shared.resources;
 
 /**
  * ResourceXMLParserException is thrown if an error occurs in the {@link com.dtolabs.shared.resources.ResourceXMLParser}.

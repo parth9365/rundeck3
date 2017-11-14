@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.workflow.state;
+package com.dtolabs.rundeck.core.execution.workflow.state;
+
+import java.util.Date;
 
 /**
  * Represents a change to the workflow state

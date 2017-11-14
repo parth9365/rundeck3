@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization;
+package com.dtolabs.rundeck.core.authorization;
 
 import javax.security.auth.Subject;
 import java.util.HashMap;

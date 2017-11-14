@@ -21,7 +21,7 @@
 * Created: Nov 26, 2008 10:39:12 AM
 * $Id$
 */
-package dtolabs.rundeck.core;
+package com.dtolabs.rundeck.core;
 
 
 import java.io.IOException;

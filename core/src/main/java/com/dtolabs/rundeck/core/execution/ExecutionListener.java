@@ -21,9 +21,11 @@
 * Created: Mar 3, 2010 4:41:48 PM
 * $Id$
 */
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
+import com.dtolabs.rundeck.core.execution.workflow.steps.node.NodeStepExecutionItem;
+import com.dtolabs.rundeck.core.execution.workflow.steps.node.NodeStepResult;
 import com.dtolabs.rundeck.core.execution.dispatch.Dispatchable;
 import com.dtolabs.rundeck.core.execution.dispatch.DispatcherResult;
 import com.dtolabs.rundeck.core.execution.service.NodeExecutorResult;
@@ -32,6 +34,7 @@ import com.dtolabs.rundeck.plugins.PluginLogger;
 import java.io.File;
 import java.io.InputStream;
 import java.util.List;
+import java.util.Map;
 
 /**
  * ExecutionListener is ...

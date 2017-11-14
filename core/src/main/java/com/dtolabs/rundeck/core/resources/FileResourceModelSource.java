@@ -21,17 +21,20 @@
 * Created: 7/19/11 11:28 AM
 * 
 */
-package dtolabs.rundeck.core.resources;
+package com.dtolabs.rundeck.core.resources;
 
 import com.dtolabs.rundeck.core.common.*;
 import com.dtolabs.rundeck.core.plugins.configuration.*;
 import com.dtolabs.rundeck.core.resources.format.*;
 import com.dtolabs.rundeck.plugins.util.DescriptionBuilder;
 import com.dtolabs.rundeck.plugins.util.PropertyBuilder;
+import com.dtolabs.shared.resources.ResourceXMLGenerator;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 

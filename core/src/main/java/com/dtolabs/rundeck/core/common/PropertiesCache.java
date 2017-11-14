@@ -21,7 +21,7 @@
 * Created: Apr 8, 2010 9:51:58 AM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -84,7 +84,7 @@ public class PropertiesCache {
     }
 
     /**
-     * Clear cached data for the file, causing a reload for the next call of {@link #getProperties(File)}
+     * Clear cached data for the file, causing a reload for the next call of {@link #getProperties(java.io.File)}
      *
      * @param file file
      */

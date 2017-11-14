@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.launcher;
+package com.dtolabs.launcher;
 
 import com.dtolabs.rundeck.core.Constants;
 import com.dtolabs.rundeck.core.cli.CLIToolLogger;
@@ -210,7 +210,7 @@ public class Setup implements CLIToolLogger {
      * Look for template in the jar resources, otherwise look for it on filepath
      * @param filename template name
      * @return file
-     * @throws IOException on io error
+     * @throws java.io.IOException on io error
      */
     private File getTemplateFile(String filename) throws IOException {
         File templateFile=null;

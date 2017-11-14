@@ -21,7 +21,7 @@
  * Created: Jan 25, 2005 11:50:37 AM
  * $Id: JARVerifier.java 1079 2008-02-05 04:53:32Z ahonor $
  */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 
 import java.io.ByteArrayInputStream;

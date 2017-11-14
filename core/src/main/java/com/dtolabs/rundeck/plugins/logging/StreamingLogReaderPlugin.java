@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.logging;
+package com.dtolabs.rundeck.plugins.logging;
 
 import com.dtolabs.rundeck.core.logging.StreamingLogReader;
 

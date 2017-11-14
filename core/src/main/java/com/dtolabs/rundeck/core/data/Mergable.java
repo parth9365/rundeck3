@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.data;
+package com.dtolabs.rundeck.core.data;
 
 /**
  * Created by greg on 6/3/16.

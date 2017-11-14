@@ -21,7 +21,9 @@
 * Created: 8/26/11 10:40 AM
 * 
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
+
+import java.util.*;
 
 /**
  * Convert one type of object into another

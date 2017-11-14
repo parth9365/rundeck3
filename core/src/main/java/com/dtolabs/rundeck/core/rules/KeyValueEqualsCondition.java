@@ -1,4 +1,4 @@
-package dtolabs.rundeck.core.rules;
+package com.dtolabs.rundeck.core.rules;
 
 /**
  * Evaluates true if the state has the key and exact value

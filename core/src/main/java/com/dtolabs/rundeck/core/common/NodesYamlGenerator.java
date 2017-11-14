@@ -21,15 +21,13 @@
 * Created: Jan 17, 2011 4:47:15 PM
 *
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
-import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.DumperOptions;
 
+import java.util.*;
 import java.io.*;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * NodesYamlGenerator produces YAML formatted output from a set of {@link INodeEntry} data.  Nodes should be added with

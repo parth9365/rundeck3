@@ -21,7 +21,7 @@
 * Created: 12/13/12 10:50 AM
 * 
 */
-package dtolabs.rundeck.core.execution.workflow.steps;
+package com.dtolabs.rundeck.core.execution.workflow.steps;
 
 /**
  * A base interface for enum failure reasons, implementations should provide a toString implementation

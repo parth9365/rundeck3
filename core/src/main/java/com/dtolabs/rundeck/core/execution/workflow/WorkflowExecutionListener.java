@@ -21,10 +21,11 @@
 * Created: 3/28/11 1:44 PM
 * 
 */
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.execution.ExecutionContext;
+import com.dtolabs.rundeck.core.execution.ExecutionListener;
 import com.dtolabs.rundeck.core.execution.StatusResult;
 import com.dtolabs.rundeck.core.execution.StepExecutionItem;
 import com.dtolabs.rundeck.core.execution.workflow.steps.StepExecutionResult;
@@ -54,7 +55,7 @@ public interface WorkflowExecutionListener  {
      * @param context context
      * @param item step
      */
-    public void beginStepExecution(StepExecutor executor, StepExecutionContext context, StepExecutionItem item);
+    public void beginStepExecution(StepExecutor executor,StepExecutionContext context, StepExecutionItem item);
 
     /**
      * Called when execution finishes for a step
@@ -81,5 +82,5 @@ public interface WorkflowExecutionListener  {
      * @param node node
      */
     public void finishExecuteNodeStep(NodeStepResult result, ExecutionContext context, StepExecutionItem item,
-                                      INodeEntry node);
+            INodeEntry node);
 }

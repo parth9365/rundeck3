@@ -14,11 +14,15 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization.providers;
-
-import com.dtolabs.rundeck.core.authorization.AclRuleSetSource;
+package com.dtolabs.rundeck.core.authorization.providers;
 
 import java.util.Collection;
+import java.util.Set;
+
+import javax.security.auth.Subject;
+
+import com.dtolabs.rundeck.core.authorization.AclRuleSetSource;
+import com.dtolabs.rundeck.core.authorization.Attribute;
 
 public interface PolicyCollection extends AclRuleSetSource {
 

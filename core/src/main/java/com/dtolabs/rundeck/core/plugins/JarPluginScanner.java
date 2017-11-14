@@ -21,15 +21,14 @@
  * Created: 4/12/11 6:19 PM
  * 
  */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.Constants;
 import com.dtolabs.rundeck.core.utils.FileUtils;
 import com.dtolabs.rundeck.core.utils.cache.FileCache;
 import org.apache.log4j.Logger;
 
-import java.io.File;
-import java.io.FileFilter;
+import java.io.*;
 
 /**
  * JarPluginScanner scans for java Jar plugins in the extensions dir.

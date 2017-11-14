@@ -21,7 +21,7 @@
 * Created: 7/19/11 11:45 AM
 * 
 */
-package dtolabs.rundeck.core.resources;
+package com.dtolabs.rundeck.core.resources;
 
 /**
  * ResourceModelSourceException is an error with a ResourceModelSource

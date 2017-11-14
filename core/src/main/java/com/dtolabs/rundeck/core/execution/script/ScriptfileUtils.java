@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.script;
+package com.dtolabs.rundeck.core.execution.script;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.common.INodeEntry;
@@ -243,7 +243,7 @@ public class ScriptfileUtils {
     }
 
     /**
-     * Creates a temp file and marks it for deleteOnExit, to clean up proactively call {@link #releaseTempFile(File)} with the result when complete
+     * Creates a temp file and marks it for deleteOnExit, to clean up proactively call {@link #releaseTempFile(java.io.File)} with the result when complete
      *
      * @return Create a temp file in the framework
      * @param framework  fwk

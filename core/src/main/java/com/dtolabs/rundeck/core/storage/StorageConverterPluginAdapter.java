@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.storage;
+package com.dtolabs.rundeck.core.storage;
 
 import com.dtolabs.rundeck.plugins.storage.StorageConverterPlugin;
 import org.apache.log4j.Logger;

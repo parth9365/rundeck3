@@ -21,7 +21,7 @@
 * Created: 3/30/11 7:03 PM
 * 
 */
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 /**
  * BaseLogger defines a base set of logging methods.

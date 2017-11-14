@@ -21,7 +21,7 @@
 * Created: Mar 31, 2008 4:58:29 PM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 import com.dtolabs.rundeck.core.utils.StringArrayUtil;
 

@@ -21,7 +21,7 @@
 * Created: 11/12/12 4:26 PM
 * 
 */
-package dtolabs.rundeck.plugins.step;
+package com.dtolabs.rundeck.plugins.step;
 
 import com.dtolabs.rundeck.core.execution.workflow.steps.StepException;
 

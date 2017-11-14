@@ -1,4 +1,4 @@
-package dtolabs.rundeck.core.rules;
+package com.dtolabs.rundeck.core.rules;
 
 import java.util.concurrent.ExecutorService;
 import java.util.function.Supplier;

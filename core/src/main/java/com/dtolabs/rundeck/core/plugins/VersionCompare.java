@@ -21,11 +21,10 @@
 * Created: 6/20/12 5:01 PM
 * 
 */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import java.io.File;
-import java.util.Comparator;
-import java.util.Map;
+import java.util.*;
 
 /**
  * VersionCompare compares version strings for plugin files.

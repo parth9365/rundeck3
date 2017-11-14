@@ -21,7 +21,7 @@
 * Created: May 27, 2010 2:46:21 PM
 * $Id$
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import org.apache.tools.ant.BuildEvent;
 import org.apache.tools.ant.DefaultLogger;

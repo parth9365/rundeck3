@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.workflow.state;
+package com.dtolabs.rundeck.core.execution.workflow.state;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 /**
  * $INTERFACE is ... User: greg Date: 10/17/13 Time: 10:32 AM

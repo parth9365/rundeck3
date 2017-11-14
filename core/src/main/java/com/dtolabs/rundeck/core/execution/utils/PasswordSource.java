@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.utils;
+package com.dtolabs.rundeck.core.execution.utils;
 
 /**
 * Created by greg on 3/19/15.

@@ -21,11 +21,9 @@
 * Created: 4/4/11 6:15 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.metadata;
+package com.dtolabs.rundeck.core.plugins.metadata;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Map;
+import java.util.*;
 
 /**
  * PluginDef loaded from plugin metadata

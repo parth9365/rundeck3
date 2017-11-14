@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.logging;
+package com.dtolabs.rundeck.core.logging;
 
 import java.io.IOException;
 
@@ -28,7 +28,7 @@ public interface ExecutionMultiFileStorage {
      *
      * @param files available file set
      *
-     * @throws IOException                                            if an IO error occurs
+     * @throws java.io.IOException                                            if an IO error occurs
      * @throws com.dtolabs.rundeck.core.logging.ExecutionFileStorageException if other errors occur
      */
     void storeMultiple(MultiFileStorageRequest files) throws IOException, ExecutionFileStorageException;

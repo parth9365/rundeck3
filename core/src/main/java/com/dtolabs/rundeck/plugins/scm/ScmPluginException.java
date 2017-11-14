@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.scm;
+package com.dtolabs.rundeck.plugins.scm;
 
 /**
  * Created by greg on 8/25/15.

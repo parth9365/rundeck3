@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization;
+package com.dtolabs.rundeck.core.authorization;
+
+import java.util.List;
 
 /**
  * Auth context with a name and role list

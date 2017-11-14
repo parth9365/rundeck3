@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.jobs;
+package com.dtolabs.rundeck.plugins.jobs;
 
 import com.dtolabs.rundeck.plugins.scm.JobChangeEvent;
 import com.dtolabs.rundeck.plugins.scm.JobSerializer;

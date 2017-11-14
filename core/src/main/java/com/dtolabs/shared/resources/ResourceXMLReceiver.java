@@ -21,7 +21,7 @@
 * Created: Apr 23, 2010 3:38:16 PM
 * $Id$
 */
-package dtolabs.shared.resources;
+package com.dtolabs.shared.resources;
 
 /**
  * ResourceXMLReceiver is used to receive parsing results from ResourceXMLParser, either as they are parsed, or

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.utils;
-
-import com.jcraft.jsch.agentproxy.AgentProxyException;
+package com.dtolabs.rundeck.core.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
+
+import com.jcraft.jsch.agentproxy.AgentProxyException;
 
 public class SSHAgentProcess {
     private String  socketPath;

@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 import lombok.Builder;
 import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * Basic data implementation of WorkflowStatusResult

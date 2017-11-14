@@ -21,13 +21,12 @@
 * Created: 8/29/11 12:26 PM
 * 
 */
-package dtolabs.rundeck.core.authorization.providers;
+package com.dtolabs.rundeck.core.authorization.providers;
 
 import com.dtolabs.rundeck.core.authorization.Attribute;
 
 import java.net.URI;
-import java.util.Collections;
-import java.util.Set;
+import java.util.*;
 
 /**
  * EnvironmentalContext determines if a set of environment attributes match a specific context.

@@ -21,7 +21,7 @@
 * Created: 12/18/12 11:05 AM
 * 
 */
-package dtolabs.rundeck.core.execution.workflow.steps.node;
+package com.dtolabs.rundeck.core.execution.workflow.steps.node;
 
 import com.dtolabs.rundeck.core.execution.workflow.steps.FailureReason;
 

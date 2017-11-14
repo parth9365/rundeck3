@@ -21,7 +21,7 @@
 * Created: Feb 24, 2010 3:39:39 PM
 * $Id$
 */
-package dtolabs.rundeck.core.cli;
+package com.dtolabs.rundeck.core.cli;
 
 import org.apache.log4j.Logger;
 

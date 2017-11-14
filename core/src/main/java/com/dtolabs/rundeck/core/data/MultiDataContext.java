@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.data;
+package com.dtolabs.rundeck.core.data;
 
 import java.util.*;
 import java.util.function.Function;

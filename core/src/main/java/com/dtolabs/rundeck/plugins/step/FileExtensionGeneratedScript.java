@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.step;
+package com.dtolabs.rundeck.plugins.step;
 
 /**
  * A GeneratedScript with a file extension

@@ -21,7 +21,7 @@
 * Created: 3/31/11 3:14 PM
 * 
 */
-package dtolabs.rundeck.core.resources.format.json;
+package com.dtolabs.rundeck.core.resources.format.json;
 
 
 import com.dtolabs.rundeck.core.common.INodeEntry;

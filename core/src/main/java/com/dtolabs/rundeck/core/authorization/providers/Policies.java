@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization.providers;
+package com.dtolabs.rundeck.core.authorization.providers;
 
 import com.dtolabs.rundeck.core.authorization.*;
 
+import javax.security.auth.Subject;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.io.IOException;
+import java.util.*;
 
 /**
  * Policies represent the policies as described in the policies file(s).

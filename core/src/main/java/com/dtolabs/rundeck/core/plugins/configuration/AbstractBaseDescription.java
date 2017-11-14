@@ -21,10 +21,9 @@
 * Created: 8/15/11 2:56 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * AbstractBaseDescription implements the optional components of the Description interface

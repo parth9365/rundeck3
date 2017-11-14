@@ -21,7 +21,7 @@
 * Created: Nov 16, 2010 11:26:12 AM
 * 
 */
-package dtolabs.rundeck.core.authorization.providers;
+package com.dtolabs.rundeck.core.authorization.providers;
 
 import com.dtolabs.rundeck.core.authorization.Attribute;
 import com.dtolabs.rundeck.core.authorization.ValidationSet;

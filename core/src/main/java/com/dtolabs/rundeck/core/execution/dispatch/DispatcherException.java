@@ -21,10 +21,13 @@
 * Created: 3/22/11 11:51 AM
 * 
 */
-package dtolabs.rundeck.core.execution.dispatch;
+package com.dtolabs.rundeck.core.execution.dispatch;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.execution.workflow.steps.node.NodeStepException;
+import com.dtolabs.rundeck.core.execution.workflow.steps.node.NodeStepResult;
+
+import java.util.Map;
 
 
 /**

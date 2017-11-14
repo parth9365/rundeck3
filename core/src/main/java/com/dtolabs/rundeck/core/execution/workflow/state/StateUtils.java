@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.workflow.state;
+package com.dtolabs.rundeck.core.execution.workflow.state;
 
 import com.dtolabs.rundeck.core.utils.PairImpl;
 import com.dtolabs.rundeck.core.utils.TextUtils;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.client.utils;
+package com.dtolabs.client.utils;
 
 /**
  * Constants for client-server communication

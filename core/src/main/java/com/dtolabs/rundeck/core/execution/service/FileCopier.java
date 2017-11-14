@@ -21,13 +21,14 @@
 * Created: 3/21/11 4:47 PM
 * 
 */
-package dtolabs.rundeck.core.execution.service;
+package com.dtolabs.rundeck.core.execution.service;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.execution.ExecutionContext;
 
 import java.io.File;
 import java.io.InputStream;
+import java.util.List;
 
 /**
  * FileCopier copies a file or its contents to a local or remote node.  The destination on the node is not

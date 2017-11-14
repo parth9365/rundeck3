@@ -21,7 +21,7 @@
 * Created: 6/5/12 5:30 PM
 * 
 */
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 /**
  * HasFailureHandler interface indicates that an StepExecutionItem is set as a failure handler.

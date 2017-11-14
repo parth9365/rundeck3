@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.file;
+package com.dtolabs.rundeck.plugins.file;
 
 import java.io.File;
 import java.io.IOException;

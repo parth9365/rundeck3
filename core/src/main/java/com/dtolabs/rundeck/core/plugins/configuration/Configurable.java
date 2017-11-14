@@ -21,7 +21,7 @@
 * Created: 7/19/11 11:29 AM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 import java.util.Properties;
 

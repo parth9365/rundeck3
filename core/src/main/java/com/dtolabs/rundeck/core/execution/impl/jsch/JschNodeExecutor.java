@@ -21,7 +21,7 @@
 * Created: 3/21/11 4:46 PM
 * 
 */
-package dtolabs.rundeck.core.execution.impl.jsch;
+package com.dtolabs.rundeck.core.execution.impl.jsch;
 
 import com.dtolabs.rundeck.core.cli.CLIUtils;
 import com.dtolabs.rundeck.core.common.Framework;
@@ -48,15 +48,13 @@ import org.apache.log4j.Logger;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Project;
 
-import java.io.IOException;
-import java.io.PipedInputStream;
-import java.io.PipedOutputStream;
+import java.io.*;
 import java.net.NoRouteToHostException;
 import java.net.SocketException;
 import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 import java.text.MessageFormat;
-import java.util.Arrays;
+import java.util.*;
 import java.util.concurrent.*;
 
 
@@ -450,7 +448,7 @@ public class JschNodeExecutor implements NodeExecutor, Describable {
                 }
             } catch (InterruptedException e) {
                 //ignore
-            } catch (ExecutionException e) {
+            } catch (java.util.concurrent.ExecutionException e) {
                 e.printStackTrace();
             } catch (TimeoutException e) {
                 //ignore

@@ -21,7 +21,7 @@
 * Created: 12/18/12 11:04 AM
 * 
 */
-package dtolabs.rundeck.core.execution.workflow.steps;
+package com.dtolabs.rundeck.core.execution.workflow.steps;
 
 /**
 * Failure causes for workflow steps

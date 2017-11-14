@@ -21,7 +21,7 @@
 * Created: 7/21/11 5:10 PM
 * 
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * FileUpdaterException  is thrown by FileUpdater if an error occurs.

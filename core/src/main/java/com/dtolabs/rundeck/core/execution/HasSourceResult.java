@@ -21,7 +21,7 @@
 * Created: 11/8/12 4:18 PM
 * 
 */
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 /**
  * HasSourceResult allows chaining of StatusResults

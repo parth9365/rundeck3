@@ -21,7 +21,7 @@
  * $Id: Mapper.java 9378 2009-08-06 18:59:53Z gschueler $
  */
 
-package dtolabs.utils;
+package com.dtolabs.utils;
 
 
 import org.apache.commons.beanutils.BeanUtils;
@@ -202,7 +202,7 @@ public abstract class Mapper {
      * @return map
      */
     public static Map zip(Object[] keys, Object[] values) {
-        return zip(Arrays.asList(keys), Arrays.asList(values), false);
+        return zip(java.util.Arrays.asList(keys), java.util.Arrays.asList(values), false);
     }
 
     /**
@@ -217,7 +217,7 @@ public abstract class Mapper {
      * @return map
      */
     public static Map zip(Object[] keys, Object[] values, boolean includeNull) {
-        return zip(Arrays.asList(keys), Arrays.asList(values), includeNull);
+        return zip(java.util.Arrays.asList(keys), java.util.Arrays.asList(values), includeNull);
     }
 
     /**
@@ -264,7 +264,7 @@ public abstract class Mapper {
      * @return a Collection of the results.
      */
     public static Collection map(Mapper mapper, Object o) {
-        return Collections.singleton(mapper.map(o));
+        return java.util.Collections.singleton(mapper.map(o));
     }
 
     /**
@@ -323,7 +323,7 @@ public abstract class Mapper {
      * @return a Collection of the results.
      */
     public static Collection map(Mapper mapper, Object[] arr, boolean allowNull) {
-        return map(mapper, Arrays.asList(arr), allowNull);
+        return map(mapper, java.util.Arrays.asList(arr), allowNull);
     }
 
     /**
@@ -486,7 +486,7 @@ public abstract class Mapper {
      * @return a new Map with values mapped
      */
     public static Map makeMap(Mapper mapper, Object[] a) {
-        return makeMap(mapper, Arrays.asList(a), false);
+        return makeMap(mapper, java.util.Arrays.asList(a), false);
     }
 
     public Map makeMap(Object[] a) {
@@ -504,7 +504,7 @@ public abstract class Mapper {
      * @return a new Map with values mapped
      */
     public static Map makeMap(Mapper mapper, Object[] a, boolean includeNull) {
-        return makeMap(mapper, Arrays.asList(a), includeNull);
+        return makeMap(mapper, java.util.Arrays.asList(a), includeNull);
     }
 
     /**
@@ -656,7 +656,7 @@ public abstract class Mapper {
      * @throws ClassCastException if there is an error invoking the method on any object.
      */
     public static Collection beanMap(String property, Object[] objs) {
-        return beanMap(property, Arrays.asList(objs), false);
+        return beanMap(property, java.util.Arrays.asList(objs), false);
     }
 
     /**
@@ -690,7 +690,7 @@ public abstract class Mapper {
 
     /**
      * Map dynamically using a bean property name.
-     *
+     * 
      * @param property    the name of a bean property
      * @param c a collection of objects
      *
@@ -764,8 +764,8 @@ public abstract class Mapper {
     }
 
     /**
-     * Return a mapper that uses a {@link Map} instance, and maps keys of that Map to the values.
-     * @param map a {@link Map} instance
+     * Return a mapper that uses a {@link java.util.Map} instance, and maps keys of that Map to the values.
+     * @param map a {@link java.util.Map} instance
      * @return a Mapper instance
      */
     public static Mapper mapMapper(final Map map) {

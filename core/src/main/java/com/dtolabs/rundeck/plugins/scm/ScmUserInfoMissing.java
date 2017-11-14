@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.scm;
+package com.dtolabs.rundeck.plugins.scm;
 
 /**
  * Exception representing missing user info during an export action

@@ -21,7 +21,7 @@
 * Created: Mar 31, 2010 3:31:29 PM
 * $Id$
 */
-package dtolabs.rundeck.core.cli;
+package com.dtolabs.rundeck.core.cli;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.Options;

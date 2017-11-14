@@ -21,7 +21,7 @@
 * Created: 4/12/11 4:00 PM
 * 
 */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.utils.PairImpl;
 

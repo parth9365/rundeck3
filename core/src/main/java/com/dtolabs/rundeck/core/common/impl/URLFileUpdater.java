@@ -21,7 +21,7 @@
 * Created: 7/22/11 10:51 AM
 * 
 */
-package dtolabs.rundeck.core.common.impl;
+package com.dtolabs.rundeck.core.common.impl;
 
 import com.dtolabs.rundeck.core.common.FileUpdater;
 import com.dtolabs.rundeck.core.common.FileUpdaterException;

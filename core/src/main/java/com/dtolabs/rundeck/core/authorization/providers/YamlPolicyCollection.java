@@ -17,14 +17,14 @@
 /**
  *
  */
-package dtolabs.rundeck.core.authorization.providers;
-
-import com.dtolabs.rundeck.core.authorization.*;
-import org.apache.log4j.Logger;
+package com.dtolabs.rundeck.core.authorization.providers;
 
 import java.io.Closeable;
 import java.io.IOException;
 import java.util.*;
+
+import com.dtolabs.rundeck.core.authorization.*;
+import org.apache.log4j.Logger;
 
 /**
  * Stores a collection of policies, read in from a source.

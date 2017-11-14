@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.storage;
+package com.dtolabs.rundeck.plugins.storage;
 
 import com.dtolabs.rundeck.core.storage.ResourceMetaBuilder;
 import org.rundeck.storage.api.HasInputStream;
@@ -36,7 +36,7 @@ public interface StorageConverterPlugin {
      * @return new data stream, or null
      */
     HasInputStream readResource(Path path, ResourceMetaBuilder resourceMetaBuilder,
-                                HasInputStream hasInputStream);
+            HasInputStream hasInputStream);
 
     /**
      * Convert a resource during create operation and return a new data stream, or null to pass the data without
@@ -49,7 +49,7 @@ public interface StorageConverterPlugin {
      * @return new data stream, or null
      */
     HasInputStream createResource(Path path, ResourceMetaBuilder resourceMetaBuilder,
-                                  HasInputStream hasInputStream);
+            HasInputStream hasInputStream);
 
     /**
      * Convert a resource during update operation and return a new data stream, or null to pass the data without
@@ -62,5 +62,5 @@ public interface StorageConverterPlugin {
      * @return new data stream, or null
      */
     HasInputStream updateResource(Path path, ResourceMetaBuilder resourceMetaBuilder,
-                                  HasInputStream hasInputStream);
+            HasInputStream hasInputStream);
 }

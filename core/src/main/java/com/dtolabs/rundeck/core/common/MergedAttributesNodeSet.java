@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * $INTERFACE is ... User: greg Date: 1/21/14 Time: 2:52 PM

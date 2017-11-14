@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.impl.common;
+package com.dtolabs.rundeck.core.execution.impl.common;
 
 import com.dtolabs.rundeck.core.common.IFramework;
 import com.dtolabs.rundeck.core.common.INodeEntry;
@@ -43,7 +43,7 @@ public interface FileCopierUtil {
      * @param expandTokens if true, expand tokens in the stream or string
      *
      * @return file where the script was stored, this file should later be cleaned up by calling
-     * {@link com.dtolabs.rundeck.core.execution.script.ScriptfileUtils#releaseTempFile(File)}
+     * {@link com.dtolabs.rundeck.core.execution.script.ScriptfileUtils#releaseTempFile(java.io.File)}
      *
      *
      * @throws com.dtolabs.rundeck.core.execution.service.FileCopierException

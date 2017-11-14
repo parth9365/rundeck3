@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 /**
  * Behavior that can be indicated by {@link com.dtolabs.rundeck.core.execution.workflow.FlowControl}

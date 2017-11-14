@@ -21,7 +21,7 @@
 * Created: 3/21/11 4:47 PM
 * 
 */
-package dtolabs.rundeck.core.execution.impl.jsch;
+package com.dtolabs.rundeck.core.execution.impl.jsch;
 
 import com.dtolabs.rundeck.core.Constants;
 import com.dtolabs.rundeck.core.common.Framework;

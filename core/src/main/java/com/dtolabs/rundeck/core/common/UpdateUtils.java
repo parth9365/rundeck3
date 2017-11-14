@@ -21,7 +21,7 @@
 * Created: Oct 14, 2010 12:15:28 PM
 * 
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 import com.dtolabs.rundeck.core.common.impl.URLFileUpdater;
 import com.dtolabs.rundeck.core.utils.FileUtils;

@@ -21,13 +21,14 @@
 * Created: 7/27/11 6:02 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
 
 
 /**
@@ -944,12 +945,12 @@ public class PropertyUtil {
             Set<String> propvalset = new HashSet<>();
             if (value.indexOf(',') > 0) {
                 Stream<String> stream = Arrays.stream(value.split(", *"));
-                propvalset.addAll(stream.map(new Function<String, String>() {
+                propvalset.addAll(stream.map(new Function<java.lang.String, java.lang.String>() {
                     @Override
                     public String apply(final String s1) {
                         return s1.trim();
                     }
-                }).filter(new Predicate<String>() {
+                }).filter(new Predicate<java.lang.String>() {
                     @Override
                     public boolean test(final String s) {
                         return !"".equals(s);

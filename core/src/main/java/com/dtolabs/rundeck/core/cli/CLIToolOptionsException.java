@@ -21,7 +21,7 @@
 * Created: Mar 30, 2010 3:53:10 PM
 * $Id$
 */
-package dtolabs.rundeck.core.cli;
+package com.dtolabs.rundeck.core.cli;
 
 /**
  * CLIToolOptionsException is ...

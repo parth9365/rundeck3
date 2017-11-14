@@ -21,7 +21,7 @@
 * Created: 4/4/11 6:25 PM
 * 
 */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.plugins.metadata.PluginMeta;
 

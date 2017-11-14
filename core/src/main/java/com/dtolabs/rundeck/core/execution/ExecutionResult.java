@@ -21,7 +21,7 @@
 * Created: Mar 3, 2010 11:09:00 AM
 * $Id$
 */
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 import com.dtolabs.rundeck.core.execution.dispatch.DispatcherResult;
 

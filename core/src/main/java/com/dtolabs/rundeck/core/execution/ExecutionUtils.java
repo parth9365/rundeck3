@@ -21,7 +21,7 @@
 * Created: Apr 3, 2010 5:30:48 PM
 * $Id$
 */
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 import com.dtolabs.rundeck.core.Constants;
 

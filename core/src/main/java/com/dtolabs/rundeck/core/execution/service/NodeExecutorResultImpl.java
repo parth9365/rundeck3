@@ -21,7 +21,7 @@
 * Created: 3/31/11 6:54 PM
 * 
 */
-package dtolabs.rundeck.core.execution.service;
+package com.dtolabs.rundeck.core.execution.service;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.execution.workflow.steps.FailureReason;

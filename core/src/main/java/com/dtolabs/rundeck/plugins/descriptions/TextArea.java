@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package dtolabs.rundeck.plugins.descriptions;
+package com.dtolabs.rundeck.plugins.descriptions;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

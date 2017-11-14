@@ -21,11 +21,12 @@
 * Created: Nov 16, 2010 12:31:26 PM
 * 
 */
-package dtolabs.rundeck.core.authorization.providers;
+package com.dtolabs.rundeck.core.authorization.providers;
 
 import com.dtolabs.rundeck.core.authorization.AclRuleSetSource;
 
 import java.util.Set;
+import java.util.regex.Pattern;
 
 /**
  * Policy is contains a set of {@link RuleSetConstructor} with corresponding usernames and/or groups

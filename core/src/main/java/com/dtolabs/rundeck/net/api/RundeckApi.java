@@ -1,4 +1,4 @@
-package dtolabs.rundeck.net.api;
+package com.dtolabs.rundeck.net.api;
 
 import com.dtolabs.rundeck.net.model.ProjectImportStatus;
 import okhttp3.RequestBody;

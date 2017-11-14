@@ -21,13 +21,14 @@
 * Created: Jan 20, 2011 11:58:42 AM
 *
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
-import com.dtolabs.shared.resources.ResourceXMLConstants;
 import org.apache.commons.beanutils.BeanUtils;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.*;
+import java.lang.reflect.InvocationTargetException;
+
+import com.dtolabs.shared.resources.ResourceXMLConstants;
 
 /**
  * NodeEntryFactory creates NodeEntryImpls

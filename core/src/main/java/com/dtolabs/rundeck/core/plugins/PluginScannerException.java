@@ -21,9 +21,11 @@
 * Created: 4/14/11 3:26 PM
 * 
 */
-package dtolabs.rundeck.core.plugins;
+package com.dtolabs.rundeck.core.plugins;
 
 import com.dtolabs.rundeck.core.execution.service.ProviderLoaderException;
+
+import java.util.*;
 
 /**
  * PluginScannerException is ...

@@ -21,7 +21,7 @@
 * Created: 8/2/11 11:58 AM
 * 
 */
-package dtolabs.rundeck.core.resources;
+package com.dtolabs.rundeck.core.resources;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.plugins.AbstractDescribableScriptPlugin;
@@ -30,7 +30,7 @@ import com.dtolabs.rundeck.core.plugins.ScriptPluginProvider;
 import com.dtolabs.rundeck.core.plugins.configuration.*;
 import com.dtolabs.rundeck.plugins.util.DescriptionBuilder;
 
-import java.util.Properties;
+import java.util.*;
 
 /**
  * ScriptPluginResourceModelSourceFactory creates ResourceModelSource from a ScriptPluginProvider and a set of

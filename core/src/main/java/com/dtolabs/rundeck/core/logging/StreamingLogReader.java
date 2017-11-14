@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.logging;
+package com.dtolabs.rundeck.core.logging;
 /*
  * StreamingLogReader.java
  * 
@@ -41,7 +41,7 @@ public interface StreamingLogReader extends LogEventIterator, Closeable {
      *
      * @param offset offset value
      *
-     * @throws IOException if an io error occurs
+     * @throws java.io.IOException if an io error occurs
      */
     void openStream(Long offset) throws IOException;
 

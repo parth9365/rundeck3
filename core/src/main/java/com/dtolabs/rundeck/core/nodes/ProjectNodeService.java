@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.nodes;
+package com.dtolabs.rundeck.core.nodes;
 
 import com.dtolabs.rundeck.core.common.INodeSet;
 

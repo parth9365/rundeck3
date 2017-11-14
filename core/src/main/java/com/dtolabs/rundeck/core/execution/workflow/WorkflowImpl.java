@@ -21,12 +21,11 @@
 * Created: Mar 16, 2010 1:01:34 PM
 * $Id$
 */
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 import com.dtolabs.rundeck.core.execution.StepExecutionItem;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * WorkflowImpl is ...

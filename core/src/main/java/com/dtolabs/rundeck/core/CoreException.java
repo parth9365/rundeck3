@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core;
+package com.dtolabs.rundeck.core;
 
 /**
  * CoreException, base exception class for the core framework

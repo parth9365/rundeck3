@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.logging;
+package com.dtolabs.rundeck.core.logging;
 
 import java.io.IOException;
+import java.util.Map;
 
 /**
  * writes log entries in a streaming manner
@@ -24,7 +25,7 @@ import java.io.IOException;
 public interface StreamingLogWriter extends LogEventReceiver {
     /**
      * Open a stream, called before addEvent is called
-     * @throws IOException if an io error occurs
+     * @throws java.io.IOException if an io error occurs
      */
     void openStream() throws IOException;
 

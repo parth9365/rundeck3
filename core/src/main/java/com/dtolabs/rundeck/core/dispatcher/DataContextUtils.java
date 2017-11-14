@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.dispatcher;
+package com.dtolabs.rundeck.core.dispatcher;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.common.INodeEntry;
@@ -96,7 +96,7 @@ public class DataContextUtils {
      * @param destination destination file, or null to create a temp file
      *
      * @return the token replaced temp file, or null if an error occurs.
-     * @throws IOException on io error
+     * @throws java.io.IOException on io error
      */
     public static File replaceTokensInScript(
             final String script,
@@ -139,7 +139,7 @@ public class DataContextUtils {
      * @param destination destination file
      *
      * @return the token replaced temp file, or null if an error occurs.
-     * @throws IOException on io error
+     * @throws java.io.IOException on io error
      */
     public static File replaceTokensInStream(
             final InputStream stream,

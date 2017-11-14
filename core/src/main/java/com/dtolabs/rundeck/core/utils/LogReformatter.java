@@ -21,7 +21,7 @@
 * Created: May 26, 2010 11:19:43 AM
 * $Id$
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import java.text.MessageFormat;
 import java.util.HashMap;

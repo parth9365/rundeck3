@@ -21,7 +21,7 @@
 * Created: May 26, 2010 11:16:47 AM
 * $Id$
 */
-package dtolabs.rundeck.core.utils;
+package com.dtolabs.rundeck.core.utils;
 
 import java.util.Map;
 

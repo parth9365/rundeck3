@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.workflow.state;
+package com.dtolabs.rundeck.core.execution.workflow.state;
 
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Listens to state changes for a workflow
@@ -50,5 +52,5 @@ public interface WorkflowStateListener {
      * @param nodeSet        node set
      */
     public void subWorkflowExecutionStateChanged(StepIdentifier identifier, ExecutionState executionState,
-                                                 Date timestamp, List<String> nodeSet);
+            Date timestamp, List<String> nodeSet);
 }

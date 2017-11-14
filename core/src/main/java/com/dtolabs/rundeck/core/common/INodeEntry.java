@@ -21,10 +21,10 @@
 * Created: Mar 31, 2008 4:51:51 PM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
-import java.util.Map;
 import java.util.Set;
+import java.util.Map;
 
 
 /**

@@ -21,7 +21,7 @@
 * Created: Apr 26, 2010 11:28:13 AM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * NodeFileParserException indicates an exception with the NodeFileParser

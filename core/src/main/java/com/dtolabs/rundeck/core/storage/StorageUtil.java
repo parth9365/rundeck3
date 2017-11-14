@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.storage;
+package com.dtolabs.rundeck.core.storage;
 
 
+import com.dtolabs.rundeck.core.authorization.AuthContext;
 import com.dtolabs.utils.Streams;
 import org.rundeck.storage.api.*;
 

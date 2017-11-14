@@ -21,7 +21,7 @@
 * Created: 11/20/12 11:46 AM
 * 
 */
-package dtolabs.rundeck.plugins.step;
+package com.dtolabs.rundeck.plugins.step;
 
 /**
  * GeneratedScript represents either a script and arguments, or a single command to execute on a remote system

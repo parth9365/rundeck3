@@ -14,9 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.scm;
+package com.dtolabs.rundeck.plugins.scm;
 
+import com.dtolabs.rundeck.core.authorization.AuthContext;
 import com.dtolabs.rundeck.core.authorization.UserAndRolesAuthContext;
+import com.dtolabs.rundeck.core.common.Framework;
+import com.dtolabs.rundeck.core.jobs.JobService;
 import com.dtolabs.rundeck.core.storage.StorageTree;
 
 /**

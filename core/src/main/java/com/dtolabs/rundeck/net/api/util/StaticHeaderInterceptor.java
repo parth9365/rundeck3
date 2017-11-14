@@ -1,4 +1,4 @@
-package dtolabs.rundeck.net.api.util;
+package com.dtolabs.rundeck.net.api.util;
 
 
 import okhttp3.Interceptor;

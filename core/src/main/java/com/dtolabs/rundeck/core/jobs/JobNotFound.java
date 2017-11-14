@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.jobs;
+package com.dtolabs.rundeck.core.jobs;
 
 /**
  * Not found

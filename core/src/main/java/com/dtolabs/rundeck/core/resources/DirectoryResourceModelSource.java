@@ -21,7 +21,7 @@
 * Created: 7/21/11 11:13 AM
 * 
 */
-package dtolabs.rundeck.core.resources;
+package com.dtolabs.rundeck.core.resources;
 
 import com.dtolabs.rundeck.core.common.AdditiveListNodeSet;
 import com.dtolabs.rundeck.core.common.Framework;

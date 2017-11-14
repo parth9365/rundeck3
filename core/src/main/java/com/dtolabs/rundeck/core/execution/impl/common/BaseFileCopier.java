@@ -21,17 +21,22 @@
 * Created: 3/22/11 2:47 PM
 * 
 */
-package dtolabs.rundeck.core.execution.impl.common;
+package com.dtolabs.rundeck.core.execution.impl.common;
 
+import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.common.IFramework;
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.common.IRundeckProject;
+import com.dtolabs.rundeck.core.dispatcher.DataContextUtils;
 import com.dtolabs.rundeck.core.execution.ExecutionContext;
 import com.dtolabs.rundeck.core.execution.script.ScriptfileUtils;
 import com.dtolabs.rundeck.core.execution.service.FileCopierException;
+import com.dtolabs.rundeck.core.execution.workflow.steps.StepFailureReason;
+import com.dtolabs.utils.Streams;
+import org.apache.commons.lang.RandomStringUtils;
 
-import java.io.File;
-import java.io.InputStream;
+import java.io.*;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
@@ -201,7 +206,7 @@ public class BaseFileCopier {
      * @param input source inputstream or null
      * @param script source text, or null
      * @return temp file, this file should later be cleaned up by calling
-     * {@link com.dtolabs.rundeck.core.execution.script.ScriptfileUtils#releaseTempFile(File)}
+     * {@link com.dtolabs.rundeck.core.execution.script.ScriptfileUtils#releaseTempFile(java.io.File)}
      * @throws FileCopierException if IOException occurs
      */
     public static File writeTempFile(ExecutionContext context, File original, InputStream input,

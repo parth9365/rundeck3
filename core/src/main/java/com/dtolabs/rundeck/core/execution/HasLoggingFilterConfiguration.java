@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution;
+package com.dtolabs.rundeck.core.execution;
 
 import com.dtolabs.rundeck.core.plugins.PluginConfiguration;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 /**

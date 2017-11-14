@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization;
+package com.dtolabs.rundeck.core.authorization;
 
 import javax.security.auth.Subject;
 import java.util.Map;
@@ -46,18 +46,18 @@ public interface Authorization {
      * 
      * @return decision Return true if the subject's action on the object given the environment is authorized.
      */
-    Decision evaluate(Map<String, String> resource, Subject subject, String action,
-                      Set<Attribute> environment);
-
+    Decision evaluate(Map<String, String> resource, Subject subject, String action, 
+            Set<Attribute> environment);
+    
     /**
      * Make a multiple resource determination by evaluating each action for each resource.
-     *
+     * 
      * @param resources resource set
      * @param subject subject
      * @param actions action set
      * @param environment environment
      * @return decisions for each resource+action pair
      */
-    Set<Decision> evaluate(Set<Map<String, String>> resources, Subject subject, Set<String> actions,
-                           Set<Attribute> environment);
+    Set<Decision> evaluate(Set<Map<String, String>> resources, Subject subject, Set<String> actions, 
+            Set<Attribute> environment);
 }

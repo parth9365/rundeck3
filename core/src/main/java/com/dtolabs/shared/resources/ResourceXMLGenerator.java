@@ -21,10 +21,12 @@
 * Created: Oct 7, 2010 11:40:20 AM
 * 
 */
-package dtolabs.shared.resources;
+package com.dtolabs.shared.resources;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.common.NodesFileGenerator;
+import static com.dtolabs.shared.resources.ResourceXMLConstants.*;
+
 import org.apache.log4j.Logger;
 import org.apache.xerces.util.XMLChar;
 import org.dom4j.Document;
@@ -38,8 +40,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.*;
-
-import static com.dtolabs.shared.resources.ResourceXMLConstants.*;
 
 /**
  * ResourceXMLGenerator can generate a resources.xml file given a set of entities or INodeEntry objects.

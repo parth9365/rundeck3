@@ -21,7 +21,7 @@
 * Created: 8/4/11 3:42 PM
 * 
 */
-package dtolabs.rundeck.core.resources.format;
+package com.dtolabs.rundeck.core.resources.format;
 
 /**
  * ResourceFormatGeneratorException is ...

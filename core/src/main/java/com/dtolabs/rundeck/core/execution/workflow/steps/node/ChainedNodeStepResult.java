@@ -1,4 +1,4 @@
-package dtolabs.rundeck.core.execution.workflow.steps.node;
+package com.dtolabs.rundeck.core.execution.workflow.steps.node;
 
 /**
  * A node step result that wraps another

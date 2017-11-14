@@ -21,7 +21,7 @@
 * Created: Sep 23, 2009 10:25:21 AM
 * $Id$
 */
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 /**
  * Implementation of INodeBase

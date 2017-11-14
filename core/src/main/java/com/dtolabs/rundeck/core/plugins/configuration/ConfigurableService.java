@@ -21,11 +21,12 @@
 * Created: 7/28/11 10:52 AM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 import com.dtolabs.rundeck.core.common.FrameworkSupportService;
 import com.dtolabs.rundeck.core.execution.service.ExecutionServiceException;
 import com.dtolabs.rundeck.core.plugins.CloseableProvider;
+import com.dtolabs.rundeck.core.resources.ResourceModelSource;
 
 import java.util.Properties;
 

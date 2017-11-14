@@ -21,7 +21,7 @@
 * Created: 7/28/11 11:14 AM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 import com.dtolabs.rundeck.core.common.FrameworkSupportService;
 import com.dtolabs.rundeck.core.plugins.ProviderIdent;

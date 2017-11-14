@@ -21,7 +21,7 @@
 * Created: Apr 26, 2010 11:44:37 AM
 * $Id$
 */
-package dtolabs.shared.resources;
+package com.dtolabs.shared.resources;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.scm;
+package com.dtolabs.rundeck.plugins.scm;
 
 import com.dtolabs.rundeck.core.jobs.JobReference;
 import com.dtolabs.rundeck.core.jobs.JobRevReference;

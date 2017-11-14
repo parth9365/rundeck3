@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.logging;
+package com.dtolabs.rundeck.core.logging;
 
 /**
  * Represents a request to store files, allowing callback of whether file storage has been performed successfully

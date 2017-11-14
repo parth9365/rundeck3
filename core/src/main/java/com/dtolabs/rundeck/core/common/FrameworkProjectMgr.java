@@ -14,15 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.common;
+package com.dtolabs.rundeck.core.common;
 
 import org.apache.log4j.Logger;
 
 import java.io.File;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Properties;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * Filesystem based project manager
@@ -119,7 +116,7 @@ public class FrameworkProjectMgr extends FrameworkResourceParent implements IFra
      * @param projectName name
      * @param properties properties
      * @param strict true for strict exists check
-     * @throws IllegalArgumentException if strict is true and the project already exists
+     * @throws java.lang.IllegalArgumentException if strict is true and the project already exists
      */
     private FrameworkProject createFrameworkProjectInt(final String projectName,final Properties properties,
             boolean strict) {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.impl.common;
+package com.dtolabs.rundeck.core.execution.impl.common;
 
 import com.dtolabs.rundeck.core.common.Framework;
 import com.dtolabs.rundeck.core.common.IFramework;
@@ -64,7 +64,7 @@ public class DefaultFileCopierUtil implements FileCopierUtil {
      * @param node     destination node entry, to provide node data context
      *
      * @return file where the script was stored, this file should later be cleaned up by calling
-     * {@link com.dtolabs.rundeck.core.execution.script.ScriptfileUtils#releaseTempFile(File)}
+     * {@link com.dtolabs.rundeck.core.execution.script.ScriptfileUtils#releaseTempFile(java.io.File)}
      *
      *
      * @throws com.dtolabs.rundeck.core.execution.service.FileCopierException
@@ -421,7 +421,7 @@ public class DefaultFileCopierUtil implements FileCopierUtil {
      * @param input source inputstream or null
      * @param script source text, or null
      * @return temp file, this file should later be cleaned up by calling
-     * {@link com.dtolabs.rundeck.core.execution.script.ScriptfileUtils#releaseTempFile(File)}
+     * {@link com.dtolabs.rundeck.core.execution.script.ScriptfileUtils#releaseTempFile(java.io.File)}
      * @throws FileCopierException if IOException occurs
      */
     @Override

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.logging;
+package com.dtolabs.rundeck.core.logging;
 
 import com.dtolabs.rundeck.plugins.logging.LogFilterPlugin;
 

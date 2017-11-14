@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization.providers.yaml.model;
+package com.dtolabs.rundeck.core.authorization.providers.yaml.model;
 
+import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.error.YAMLException;
+import org.yaml.snakeyaml.nodes.*;
 
 import java.util.*;
 

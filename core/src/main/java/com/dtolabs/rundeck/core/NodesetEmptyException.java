@@ -21,7 +21,7 @@
 * Created: Jun 2, 2010 3:06:47 PM
 * $Id$
 */
-package dtolabs.rundeck.core;
+package com.dtolabs.rundeck.core;
 
 import com.dtolabs.rundeck.core.common.NodesSelector;
 

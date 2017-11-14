@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.workflow;
+package com.dtolabs.rundeck.core.execution.workflow;
 
 import com.dtolabs.rundeck.core.utils.NullablePairImpl;
 import com.dtolabs.rundeck.core.utils.Pair;
+import com.dtolabs.rundeck.core.utils.PairImpl;
 import com.dtolabs.rundeck.core.utils.Pairs;
 
 import java.util.ArrayList;

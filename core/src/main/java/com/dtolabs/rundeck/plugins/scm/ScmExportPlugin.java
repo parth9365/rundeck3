@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.plugins.scm;
+package com.dtolabs.rundeck.plugins.scm;
 
 import com.dtolabs.rundeck.core.jobs.JobReference;
 import com.dtolabs.rundeck.core.plugins.views.Action;
@@ -40,7 +40,7 @@ public interface ScmExportPlugin {
      *
      * @return input view for the specified action
      */
-    BasicInputView getInputViewForAction(final ScmOperationContext context, String actionId);
+    BasicInputView getInputViewForAction(final ScmOperationContext context,String actionId);
 
     /**
      * @param context context map

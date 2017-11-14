@@ -14,12 +14,9 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.execution.workflow.state;
+package com.dtolabs.rundeck.core.execution.workflow.state;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * $INTERFACE is ... User: greg Date: 10/15/13 Time: 3:35 PM

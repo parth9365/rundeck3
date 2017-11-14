@@ -21,15 +21,14 @@
 * Created: 11/13/12 6:06 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 import com.dtolabs.rundeck.core.common.ProviderService;
 import com.dtolabs.rundeck.core.execution.service.ExecutionServiceException;
 import com.dtolabs.rundeck.core.plugins.ProviderIdent;
 import com.dtolabs.rundeck.plugins.util.DescriptionBuilder;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 
 /**

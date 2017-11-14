@@ -21,7 +21,7 @@
 * Created: 11/26/12 3:10 PM
 * 
 */
-package dtolabs.rundeck.plugins;
+package com.dtolabs.rundeck.plugins;
 
 import com.dtolabs.rundeck.core.execution.ExecutionLogger;
 

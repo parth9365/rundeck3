@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-package dtolabs.rundeck.core.authorization.providers;
+package com.dtolabs.rundeck.core.authorization.providers;
 
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.Closeable;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**

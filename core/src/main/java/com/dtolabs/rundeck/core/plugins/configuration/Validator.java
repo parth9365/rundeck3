@@ -21,12 +21,9 @@
 * Created: 7/28/11 2:37 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * Validator utility class can create a validation report for a set of input properties and a configuration

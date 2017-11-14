@@ -21,7 +21,7 @@
 * Created: Jun 3, 2010 11:33:34 AM
 * $Id$
 */
-package dtolabs.rundeck.core.tasks.net;
+package com.dtolabs.rundeck.core.tasks.net;
 
 import com.dtolabs.rundeck.core.common.INodeEntry;
 import com.dtolabs.rundeck.core.dispatcher.DataContextUtils;

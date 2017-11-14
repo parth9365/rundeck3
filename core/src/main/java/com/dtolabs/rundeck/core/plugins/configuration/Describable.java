@@ -21,7 +21,7 @@
 * Created: 7/27/11 4:52 PM
 * 
 */
-package dtolabs.rundeck.core.plugins.configuration;
+package com.dtolabs.rundeck.core.plugins.configuration;
 
 /**
  * Describable object can produce a configuration description
